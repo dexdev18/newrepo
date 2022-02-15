@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dextofmd/public_html/git-wp
+    - /bin/cp * $DEPLOYPATH
+   
